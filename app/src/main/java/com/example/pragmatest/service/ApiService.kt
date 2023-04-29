@@ -1,9 +1,9 @@
-package com.example.pragmatest
+package com.example.pragmatest.service
 
+import com.example.pragmatest.model.Cat
 import retrofit2.Response
-import retrofit2.http.Header
+import retrofit2.http.GET
 import retrofit2.http.Headers
-import retrofit2.http.POST
 
 interface ApiService {
 
@@ -12,6 +12,6 @@ interface ApiService {
     }
 
     @Headers("x-api-key: bda53789-d59e-46cd-9bc4-2936630fde39")
-    @POST("breeds")
+    @GET("breeds")
     suspend fun getCatList(): Response<List<Cat>>
 }

@@ -1,4 +1,4 @@
-package com.example.pragmatest
+package com.example.pragmatest.service
 
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import dagger.Module
