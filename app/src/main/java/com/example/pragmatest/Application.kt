@@ -1,4 +1,4 @@
-package com.example.pragmatest.service
+package com.example.pragmatest
 
 import android.app.Application
 import com.facebook.stetho.Stetho
